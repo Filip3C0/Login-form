@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(62, 0, 227);
+    background: linear-gradient(28deg, rgba(62, 0, 227, 1) 17%, rgba(217, 52, 159, 1) 86%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container {
+    width: 375px;
+    height: 700px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: -80px;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 5px 26px 10px #ffffff52;
+    box-shadow: 7px 5px 26px 10px #ffffff52;
+
+}
+
+h1 {
+    display: block;
+    margin: 128px 277px auto 21px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.41px;
+    padding-top: 100px;
+
+}
+
+.column::before {
+    content: "";
+    display: inline-block;
+    background: rgb(62, 0, 227);
+    background: linear-gradient(28deg, rgba(62, 0, 227, 1) 17%, rgba(217, 52, 159, 1) 86%);
+    height: 41px;
+    width: 7px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+
+}
+
+.first-paragraph {
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+    color: rgba(0, 0, 0, 0.502);
+    margin-bottom: 102px;
+    margin-left: 16px;
+
+
+}
+
+input {
+    display: block;
+    width: 342px;
+    height: 48px;
+    outline: none;
+    background-color: #F2F2F7;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-left: 16px;
+    margin-left: 16px;
+
+}
+
+input::placeholder {
+    display: relative;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    color: #929292;
+}
+
+.input-password {
+    margin-top: 12px;
+}
+
+.forget {
+    display: block;
+    text-align: right;
+    margin: 17px 16px 21px auto;
+    text-decoration: none;
+    color: #007AFF;
+}
+
+.btn-login {
+    display: block;
+    width: 343px;
+    height: 48px;
+    margin: 0 auto;
+    border-radius: 9px;
+    background: rgb(62, 0, 227);
+    color: white;
+    font-size: 1.1rem;
+}
+.btn-login:hover{
+    background: rgba(217, 52, 159, 1);
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1.4px;
+}
+.btn-login:active{
+    background: rgba(217, 52, 159, 0.693);
+}
+.no-account {
+    line-height: 26px;
+    letter-spacing: 0.41px;
+    color: rgba(0, 0, 0, 0.502);
+    margin: 142px auto auto auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+.no-account > a {
+    text-decoration: none;
+    color: #007AFF;
+    font-weight: 500;
+}
